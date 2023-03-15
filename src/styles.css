@@ -1,0 +1,158 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+.profileContainer {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.userImage {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.headerContent {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.headerContentChild {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100px;
+}
+.newRewardModal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.3px solid black;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 250px;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+}
+.newRewardModal input {
+  width: 200px;
+  height: 30px;
+}
+.newRewardModal textarea {
+  width: 200px;
+  height: 60px;
+}
+.newRewardModal label {
+  height: 40px;
+}
+.newRewardModal .inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rewardButton {
+  width: 100px;
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.feedHeader {
+  display: flex;
+  gap: 20px;
+  height: 40px;
+  padding-left: 1rem;
+}
+.feedItemContainer {
+  display: flex;
+  align-items: center;
+}
+.feedItemContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 5px;
+}
+.feedItemContainer p {
+  margin: 5px;
+}
+.feedContainer {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.navButton {
+  border: 0px;
+  background-color: inherit;
+  font-size: 1rem;
+}
+.selectedNavButton {
+  border: 0px;
+  background-color: inherit;
+  font-size: 1rem;
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.border {
+  margin-top: 10px;
+  border-bottom: 0.5px solid black;
+  position: relative;
+}
+.addRewardButton {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 80%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  border: 1px solid black;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedItemContainer {
+  display: flex;
+}
+.feedItemContainer p {
+  padding: 0px;
+  margin: 3px;
+}
+.feedContainer .timeStamp {
+  font-size: 10px;
+}
+.feedContainer .rewarderRewardee {
+  font-size: 14px;
+}
+.feedContainer .reason {
+  padding-top: 4px;
+  font-size: 14px;
+}
+.crossIcon {
+  border: 1px solid white;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
